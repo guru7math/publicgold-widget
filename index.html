@@ -1,10 +1,358 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
-  <meta charset="UTF-8">
-  <title>Public Gold Widget</title>
+
+<meta charset="UTF-8">
+
+<meta
+  name="viewport"
+  content="width=device-width,initial-scale=1"
+>
+
+<style>
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* ==============================
+   WIDGET
+   ============================== */
+
+.widget {
+  width: 100%;
+  max-width: 375px;
+
+  margin:
+    0 auto
+    14px auto;
+
+  color: #f00000;
+
+  font-size: 14px;
+}
+
+
+/* ==============================
+   HEADER EMAS
+   ============================== */
+
+.goldtop {
+
+  padding-top: 4px;
+
+  background:
+    linear-gradient(
+      180deg,
+      #d29500,
+      #f1bd13
+    );
+
+  border:
+    1px solid #d9a000;
+
+  border-bottom: 0;
+}
+
+
+.title {
+
+  display: inline-block;
+
+  margin-left: 7px;
+
+  padding:
+    3px 12px;
+
+  background: #ffffff;
+
+  border-radius: 9px;
+
+  color: #b47c16;
+
+  font-size: 12px;
+
+  font-weight: bold;
+
+  font-style: italic;
+}
+
+
+.update {
+
+  padding:
+    2px 8px
+    4px 8px;
+
+  color: #ffffff;
+
+  font-size: 12px;
+}
+
+
+/* ==============================
+   TABLE
+   ============================== */
+
+table {
+
+  width: 100%;
+
+  border-collapse: collapse;
+
+  background: #ffffff;
+}
+
+
+th {
+
+  background:
+    linear-gradient(
+      180deg,
+      #d49a00,
+      #f1bd12
+    );
+
+  color: #ffffff;
+
+  font-weight: normal;
+
+  white-space: nowrap;
+}
+
+
+td,
+th {
+
+  padding:
+    6px 5px;
+
+  text-align: center;
+
+  border:
+    1px solid #dda400;
+}
+
+
+td {
+
+  color: #f00000;
+
+  background: #ffffff;
+}
+
+
+/* PRE ORDER */
+
+.pre td {
+
+  padding:
+    7px 5px;
+
+  font-size: 14px;
+}
+
+
+/* SUMBER */
+
+.source {
+
+  padding-top: 3px;
+
+  text-align: right;
+
+  color: #777777;
+
+  font-size: 9px;
+}
+
+
+.source a {
+
+  color: #777777;
+
+  text-decoration: none;
+}
+
+
+/* HP */
+
+@media
+(max-width: 380px) {
+
+  .widget {
+    font-size: 13px;
+  }
+
+  td,
+  th {
+    padding:
+      6px 3px;
+  }
+
+}
+
+</style>
+
 </head>
+
+
 <body>
-  TEST PUBLIC GOLD
+
+
+<!-- =====================================
+     HARGA PRE ORDER
+     ===================================== -->
+
+<div class="widget">
+
+  <div class="goldtop">
+
+    <div class="title">
+      HARGA PRE ORDER (24K)
+    </div>
+
+    <div class="update">
+      (Update terakhir 26-Sep-2026)
+    </div>
+
+  </div>
+
+
+  <table class="pre">
+
+    <tr>
+
+      <td>
+        Rp 300.000 =
+        0.1115 gram
+      </td>
+
+    </tr>
+
+
+    <tr>
+
+      <td>
+        Rp 2.690.000
+        = 1.0000 gram
+      </td>
+
+    </tr>
+
+  </table>
+
+</div>
+
+
+
+<!-- =====================================
+     EMAS DINAR
+     ===================================== -->
+
+<div class="widget">
+
+  <div class="goldtop">
+
+    <div class="title">
+      EMAS DINAR (24K)
+    </div>
+
+  </div>
+
+
+  <table>
+
+    <tr>
+
+      <th>
+        Dinar
+      </th>
+
+      <th>
+        PG Jual (Rp)
+      </th>
+
+      <th>
+        PG Beli (Rp)
+      </th>
+
+    </tr>
+
+    <tr><td>1 Dinar</td><td>11.526.000</td><td>10.374.000</td></tr><tr><td>5 Dinar</td><td>57.634.000</td><td>51.871.000</td></tr><tr><td>10 Dinar</td><td>115.269.000</td><td>103.742.000</td></tr>
+
+  </table>
+
+</div>
+
+
+
+<!-- =====================================
+     EMAS BATANGAN
+     ===================================== -->
+
+<div class="widget">
+
+  <div class="goldtop">
+
+    <div class="title">
+      EMAS BATANGAN (24K)
+    </div>
+
+  </div>
+
+
+  <table>
+
+    <tr>
+
+      <th>
+        Berat
+      </th>
+
+      <th>
+        PG Jual (Rp)
+      </th>
+
+      <th>
+        PG Beli (Rp)
+      </th>
+
+    </tr>
+
+    <tr><td>5 gram</td><td>13.450.000</td><td>12.239.000</td></tr><tr><td>10 gram</td><td>26.900.000</td><td>24.479.000</td></tr><tr><td>20 gram</td><td>53.800.000</td><td>49.496.000</td></tr><tr><td>50 gram</td><td>134.006.000</td><td>123.956.000</td></tr><tr><td>100 gram</td><td>267.520.000</td><td>248.793.000</td></tr><tr><td>250 gram</td><td>665.098.000</td><td>625.192.000</td></tr><tr><td>1000 gram</td><td>2.660.393.000</td><td>2.500.770.000</td></tr>
+
+  </table>
+
+
+  <div class="source">
+
+    Sumber:
+
+    <a
+      href="https://publicgold.co.id/"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      Public Gold Indonesia
+    </a>
+
+  </div>
+
+</div>
+
+
 </body>
+
 </html>
